@@ -3,6 +3,7 @@ import ffnnmodel
 import routine
 import config
 
+# To run, make sure you have a data/ folder containing MNIST and a model/ folder along with your code/ folder
 
 def run():
     train_loader = data.get_loader("train")
